@@ -17,10 +17,10 @@ This repository provides a template Python environment with the latest ROCm-enab
 
 ## Why a nix shell instead of a container
 
-- *Performance:* A nix shell lot faster (up to 2x depending on what are you training).
-- *Integration with your editor:* Spawn your editor inside the shell and package detection will work out of the box.
-- *Contained dev environment:* Add any dependencies you can think of, either from PyPI or Nixpkgs to the `flake.nix` and they will be available in your shell.
-- *Portability and management:* A nix shell can be run on any system with Nix installed, making it easy to share your environment with others, without having to rebuild and upload images.
+- **Performance:** A nix shell lot faster (up to 2x depending on what are you training).
+- **Integration with your editor:** Spawn your editor inside the shell and package detection will work out of the box.
+- **Contained dev environment:** Add any dependencies you can think of, either from PyPI or Nixpkgs to the `flake.nix` and they will be available in your shell.
+- **Portability and management:** A nix shell can be run on any system with Nix installed, making it easy to share your environment with others, without having to rebuild and upload images.
 
 ## Prerequisites
 
