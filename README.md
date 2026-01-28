@@ -101,8 +101,3 @@ Inside the dev shell you have some extra commands you can use:
 
 - You can also run the commands provided from the project python dependencies like `rocminfo`, `rocm-smi` etc...
 
-## Notes
-
-- After some tests I found the performance of running torch inside a Nix shell far superior (more than 2x depending on what you are training) to running it inside container with the same ROCm version.
-- This setup expects AMD ROCm nightlies to be available for your target GPU.
-- If you encounter import or runtime errors, verify that your `target` matches your hardware and that your ROCm stack is compatible.
